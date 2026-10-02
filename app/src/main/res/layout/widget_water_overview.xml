@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_card_background_translucent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="12dp"
+    android:paddingTop="10dp"
+    android:paddingEnd="10dp"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        android:id="@+id/widget_water_bottle"
+        android:layout_width="38dp"
+        android:layout_height="58dp"
+        android:contentDescription="@string/widget_water_bottle_description"
+        android:scaleType="centerInside" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/widget_water_title"
+            android:textColor="@color/arctic_widget_muted"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/widget_water_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="1"
+            android:text="1,750 / 3,700 ml"
+            android:textColor="@color/arctic_widget_text"
+            android:textSize="15sp" />
+
+        <ProgressBar
+            android:id="@+id/widget_water_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_marginTop="7dp"
+            android:max="100"
+            android:progress="47"
+            android:progressDrawable="@drawable/widget_progress_bar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/widget_add_quick"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:minWidth="58dp"
+            android:background="@drawable/widget_compact_add_pill"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:text="+250"
+            android:textColor="@android:color/white"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/widget_subtract_quick"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="7dp"
+            android:background="@drawable/widget_compact_minus_circle"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="−"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

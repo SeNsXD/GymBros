@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_compact_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_card_background_translucent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="11dp"
+    android:paddingTop="7dp"
+    android:paddingEnd="11dp"
+    android:paddingBottom="7dp">
+
+    <ImageView
+        android:id="@+id/widget_compact_bottle"
+        android:layout_width="24dp"
+        android:layout_height="44dp"
+        android:contentDescription="@string/widget_water_bottle_description"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/widget_compact_intake"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:text="2,400"
+                android:textColor="@color/arctic_widget_text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/widget_compact_goal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:text="/ 3,000"
+                android:textColor="@color/arctic_widget_muted"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/widget_compact_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="6dp"
+            android:max="100"
+            android:progress="80"
+            android:progressDrawable="@drawable/widget_progress_bar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/widget_compact_subtract"
+                android:layout_width="30dp"
+                android:layout_height="22dp"
+                android:background="@drawable/widget_mini_minus_pill"
+                android:contentDescription="Subtract water"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="−"
+                android:textColor="@color/arctic_widget_text"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/widget_compact_add"
+                android:layout_width="0dp"
+                android:layout_height="22dp"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/widget_mini_add_pill"
+                android:contentDescription="Add water"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="+600"
+                android:textColor="@color/arctic_widget_water"
+                android:textSize="11sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

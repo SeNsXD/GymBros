@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_next_sip_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_card_background"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/widget_next_sip_title"
+        android:textColor="@color/arctic_widget_muted"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/widget_next_sip_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="1"
+        android:text="2:30 PM"
+        android:textColor="@color/arctic_widget_text"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/widget_next_sip_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/widget_reminder_label"
+        android:textColor="@color/arctic_widget_water"
+        android:textSize="11sp" />
+
+</LinearLayout>

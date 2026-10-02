@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_progress_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_card_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/widget_goal_title"
+        android:textColor="@color/arctic_widget_muted"
+        android:textSize="11sp" />
+
+    <FrameLayout
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/widget_progress_ring"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:contentDescription="@string/widget_progress_ring_description"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:id="@+id/widget_progress_percent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="58%"
+            android:textColor="@color/arctic_widget_text"
+            android:textSize="17sp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/widget_progress_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="1,750 / 3,700 ml"
+        android:textColor="@color/arctic_widget_muted"
+        android:textSize="10sp" />
+
+</LinearLayout>

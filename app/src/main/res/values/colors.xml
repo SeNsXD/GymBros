@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ignite_background">#0D0C0B</color>
+    <color name="ignite_surface_1">#141210</color>
+    <color name="ignite_surface_2">#1C1917</color>
+    <color name="ignite_surface_3">#27221E</color>
+    <color name="ignite_card_top">#1E1A16</color>
+    <color name="ignite_card_bottom">#16130F</color>
+    <color name="ignite_hairline">#14FFFFFF</color>
+    <color name="ignite_ember">#E8641C</color>
+    <color name="ignite_gold">#F2B824</color>
+    <color name="ignite_deep_ember">#B8480F</color>
+    <color name="ignite_text_on_gradient">#1A0F05</color>
+    <color name="ignite_text">#F2EDE5</color>
+    <color name="ignite_muted">#9A9186</color>
+    <color name="arctic_widget_background">#0A0B10</color>
+    <color name="arctic_widget_card">#80181818</color>
+    <color name="arctic_widget_raised">#191C28</color>
+    <color name="arctic_widget_outline">#222635</color>
+    <color name="arctic_widget_inactive">#262A40</color>
+    <color name="arctic_widget_primary">#38E89F</color>
+    <color name="arctic_widget_water">#4DE1FF</color>
+    <color name="arctic_widget_water_deep">#1FB6D9</color>
+    <color name="arctic_widget_text">#F6F4F1</color>
+    <color name="arctic_widget_muted">#7F8497</color>
+    <color name="arctic_widget_text_on_accent">#071116</color>
+</resources>

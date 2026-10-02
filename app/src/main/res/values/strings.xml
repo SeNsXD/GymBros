@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GymBros</string>
+    <string name="widget_water_overview_name">GymBros Water</string>
+    <string name="widget_water_progress_name">GymBros Goal</string>
+    <string name="widget_next_sip_name">GymBros Next Sip</string>
+    <string name="widget_water_title">GymBros · Water</string>
+    <string name="widget_goal_title">Goal</string>
+    <string name="widget_next_sip_title">Next sip</string>
+    <string name="widget_reminder_label">Reminder</string>
+    <string name="widget_water_bottle_description">Today’s water bottle progress</string>
+    <string name="widget_progress_ring_description">Today’s hydration progress</string>
+    <string name="widget_water_overview_description">Hydration total with quick add and subtract actions</string>
+    <string name="widget_water_progress_description">Hydration goal percentage</string>
+    <string name="widget_next_sip_description">Next scheduled water reminder</string>
+    <string name="widget_water_compact_name">GymBros Water Mini</string>
+    <string name="widget_water_compact_description">Compact hydration bottle with quick add and subtract controls</string>
+</resources>
