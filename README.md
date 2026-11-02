@@ -101,6 +101,12 @@ Grab the verified APK directly from **GitHub Releases**:
 
 ---
 
+## Community & Support
+
+Have questions, feedback, or ideas? Join our [Discord Server](https://discord.gg/X9b6TSYdVk) or open an issue on GitHub.
+
+---
+
 <div align="center">
   <sub>Part of the <a href="https://github.com/SeNsXD"><b>xdNOT-Labs</b></a> collection. Building things for the fun of it.</sub>
 </div>
